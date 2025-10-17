@@ -2,55 +2,55 @@
     {
         "titulo": "Memorabilia",
         "categoria": "Fanzine experimental",
-        "imagen": "img/memo.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/memo.webp",
         "alt": "Memorabilia"
     },
     {
         "titulo": "Visualización de datos",
         "categoria": "Museo Histórico Nacional",
-        "imagen": "img/museo.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/museo.webp",
         "alt": "Museo"
     },
     {
         "titulo": "Feiky",
         "categoria": "App especulativa",
-        "imagen": "img/feikyipad.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/feikyipad.webp",
         "alt": "Feiky"
     },
     {
         "titulo": "Prímula",
         "categoria": "Sostén deportivo",
-        "imagen": "img/primula.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/primula.webp",
         "alt": "Prímula"
     },
     {
         "titulo": "Shelf Units",
         "categoria": "Mobiliario organizador",
-        "imagen": "img/mueble.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/mueble.webp",
         "alt": "Shelf Units"
     },
     {
         "titulo": "Marcianos en apuros",
         "categoria": "Juego de mesa",
-        "imagen": "img/marcianos.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/marcianos.webp",
         "alt": "Marcianos"
     },
     {
         "titulo": "Dispositivo Experimental",
         "categoria": "de Aprendizaje",
-        "imagen": "img/kaizen.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/kaizen.webp",
         "alt": "DEA"
     },
     {
         "titulo": "Mundo Tattoo",
         "categoria": "Álbum coleccionable",
-        "imagen": "img/mundotatu.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/mundotatu.webp",
         "alt": "Mundo Tattoo"
     },
     {
         "titulo": "Frozzies",
         "categoria": "Packaging",
-        "imagen": "img/frozzies.webp",
+        "imagen": "https://piacanalesr.github.io/webo_10/img/frozzies.webp",
         "alt": "Frozzies"
     }
 ]
