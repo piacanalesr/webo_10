@@ -3,54 +3,54 @@
         "titulo": "Memorabilia",
         "categoria": "Fanzine experimental",
         "imagen": "img/memorabilia.jpg",
-        "categoria": "Memorabilia"
+        "alt": "Memorabilia"
     },
     {
         "titulo": "Visualización de datos",
         "categoria": "Museo Histórico Nacional",
         "imagen": "img/museo.jpg",
-        "categoria": "Museo"
+        "alt": "Museo"
     },
     {
         "titulo": "Feiky",
         "categoria": "App especulativa",
         "imagen": "img/feikyipad.jpg",
-        "categoria": "Feiky"
+        "alt": "Feiky"
     },
     {
         "titulo": "Prímula",
         "categoria": "Sostén deportivo",
         "imagen": "img/primula.jpg",
-        "categoria": "Prímula"
+        "alt": "Prímula"
     },
     {
         "titulo": "Shelf Units",
         "categoria": "Mobiliario organizador",
         "imagen": "img/mueble.jpg",
-        "categoria": "Shelf Units"
+        "alt": "Shelf Units"
     },
     {
         "titulo": "Marcianos en apuros",
         "categoria": "Juego de mesa",
         "imagen": "img/marcianos.jpg",
-        "categoria": "Marcianos"
+        "alt": "Marcianos"
     },
     {
         "titulo": "Dispositivo Experimental",
         "categoria": "de Aprendizaje",
         "imagen": "img/kaizen.jpg",
-        "categoria": "DEA"
+        "alt": "DEA"
     },
     {
         "titulo": "Mundo Tattoo",
         "categoria": "Álbum coleccionable",
         "imagen": "img/mundotatu.png",
-        "categoria": "Mundo Tattoo"
+        "alt": "Mundo Tattoo"
     },
     {
         "titulo": "Frozzies",
         "categoria": "Packaging",
         "imagen": "img/frozzies.jpg",
-        "categoria": "Frozzies"
+        "alt": "Frozzies"
     }
 ]
