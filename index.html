@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mi portafolio con Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header data-bs-theme="dark">
+            <div class="collapse text-bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4>Hola! Soy Pía ✶</h4>
+                            <p class="text-body-secondary">
+                                Tengo 21 años y soy estudiante de cuarto año de Diseño Integral en la Pontificia Universidad Católica de Chile. Mis proyectos rondan en base a la visualización de información, comunicación visual y cómo volverlos tangibles. Veo el diseño como una manera de crear un mundo más amigable, empático y entendible para todos los seres, a través de lo visual y físico.
+
+
+                            </p>
+
+                            <div>
+                                <br>
+                            <h4>Contáctame!</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.instagram.com/rkivens/" target="_blank" class="text-white">Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/in/pía-canales-riquelme-1a74032b1/" target="_blank" class="text-white">LinkedIn</a></li>
+                                <li><a href="mailto:piacanalesr@uc.cl" class="text-white">Correo</a></li>
+                            </ul>
+                        </div>
+
+
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="ms-2">Habilidades</h4>
+                            <table id="aqui" class="table table-hover"></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">☆ Pía Canales Riquelme ☆</h1>
+                        <p class="lead text-body-secondary">
+                            Portafolio de trabajos de diseño
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="porotito"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-body-secondary py-5">
+            <div class="container">
+                <p class="float-end mb-1"><a href="#">Vuelve al comienzo</a></p>
+                <p class="mb-1"> &copy;   Pía Canales Riquelme, 2025 </p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+
+        <script>
+            const habilidades = [
+                { programa: "Photoshop", valor: "60" },
+                { programa: "Illustrator", valor: "80" },
+                { programa: "InDesign", valor: "40" },
+                { programa: "Fusion360", valor: "30" },
+                { programa: "FIGMA", valor: "90" },
+            ];
+
+            const donde = document.querySelector("#aqui");
+
+            habilidades.forEach((h) => {
+                donde.innerHTML += `<tr>
+                    <td class="w-25">${h.programa}</td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5">
+                        <rect width="${h.valor}" height="5" rx="2" ry="2" fill="yellowgreen" />      
+                        </svg>
+                        </td>
+                    </tr>`;
+
+
+            });
+        </script>
+    </body>
+</html>
+
+
+
