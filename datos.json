@@ -8,49 +8,49 @@
     {
         "titulo": "Visualización de datos",
         "categoria": "Museo Histórico Nacional",
-        "imagen": "img/museo.jpg",
+        "imagen": "img/museo.webp",
         "alt": "Museo"
     },
     {
         "titulo": "Feiky",
         "categoria": "App especulativa",
-        "imagen": "img/feikyipad.jpg",
+        "imagen": "img/feikyipad.webp",
         "alt": "Feiky"
     },
     {
         "titulo": "Prímula",
         "categoria": "Sostén deportivo",
-        "imagen": "img/primula.jpg",
+        "imagen": "img/primula.webp",
         "alt": "Prímula"
     },
     {
         "titulo": "Shelf Units",
         "categoria": "Mobiliario organizador",
-        "imagen": "img/mueble.jpg",
+        "imagen": "img/mueble.webp",
         "alt": "Shelf Units"
     },
     {
         "titulo": "Marcianos en apuros",
         "categoria": "Juego de mesa",
-        "imagen": "img/marcianos.jpg",
+        "imagen": "img/marcianos.webp",
         "alt": "Marcianos"
     },
     {
         "titulo": "Dispositivo Experimental",
         "categoria": "de Aprendizaje",
-        "imagen": "img/kaizen.jpg",
+        "imagen": "img/kaizen.webp",
         "alt": "DEA"
     },
     {
         "titulo": "Mundo Tattoo",
         "categoria": "Álbum coleccionable",
-        "imagen": "img/mundotatu.png",
+        "imagen": "img/mundotatu.webp",
         "alt": "Mundo Tattoo"
     },
     {
         "titulo": "Frozzies",
         "categoria": "Packaging",
-        "imagen": "img/frozzies.jpg",
+        "imagen": "img/frozzies.webp",
         "alt": "Frozzies"
     }
 ]
