@@ -1,10 +1,10 @@
 const portfolio = document.querySelector("#porotito");
 
-async function datos(url) {
+async function datos(raw) {
     try {
         let consulta = await fetch(raw);
         let resultado = await consulta.json();
-        let trabajos = await consulta.json();
+        let trabajos = resultado.data;
         console.log(trabajos);
 
         console.log(trabajos);
